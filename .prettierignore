@@ -1,0 +1,15 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build folder
+build/
+
+# Ignore generated files
+*.min.js
+*.min.css
+
+# Ignore vs code configuration
+.vscode/
+
+# Ignore the readme
+README.md
