@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Spartak Lalaj",
   "license": "MIT",
+  "scripts": {
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -13,6 +16,7 @@
     "css-loader": "^6.8.1",
     "eslint": "^8.0.1",
     "html-webpack-plugin": "^5.5.3",
+    "onchange": "^7.1.0",
     "prettier": "3.0.3",
     "sass": "^1.68.0",
     "sass-loader": "^13.3.2",
